@@ -1,0 +1,23 @@
+{
+  "name": "Exercises_2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "chai": "^3.5.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "express-session": "^1.14.1",
+    "hbs": "~4.0.0",
+    "morgan": "~1.7.0",
+    "nock": "^8.0.0",
+    "request": "^2.74.0",
+    "serve-favicon": "~2.3.0",
+    "uuid": "^2.0.2"
+  }
+}
